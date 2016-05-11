@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EBB3351CE3441900BC4754 /* BTHAdressWorkMapAllow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17EBB3341CE3441900BC4754 /* BTHAdressWorkMapAllow.h */; };
+		17EBB3371CE3441900BC4754 /* BTHAdressWorkMapAllow.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EBB3361CE3441900BC4754 /* BTHAdressWorkMapAllow.m */; };
+		17EBB33F1CE3453A00BC4754 /* BTHMapAllowTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EBB33E1CE3453A00BC4754 /* BTHMapAllowTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17EBB32F1CE3441900BC4754 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				17EBB3351CE3441900BC4754 /* BTHAdressWorkMapAllow.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17EBB3311CE3441900BC4754 /* libBTHAdressWorkMapAllow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBTHAdressWorkMapAllow.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EBB3341CE3441900BC4754 /* BTHAdressWorkMapAllow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTHAdressWorkMapAllow.h; sourceTree = "<group>"; };
+		17EBB3361CE3441900BC4754 /* BTHAdressWorkMapAllow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTHAdressWorkMapAllow.m; sourceTree = "<group>"; };
+		17EBB33D1CE3453A00BC4754 /* BTHMapAllowTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHMapAllowTool.h; sourceTree = "<group>"; };
+		17EBB33E1CE3453A00BC4754 /* BTHMapAllowTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHMapAllowTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EBB32E1CE3441900BC4754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17EBB3281CE3441900BC4754 = {
+			isa = PBXGroup;
+			children = (
+				17EBB3331CE3441900BC4754 /* BTHAdressWorkMapAllow */,
+				17EBB3321CE3441900BC4754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EBB3321CE3441900BC4754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EBB3311CE3441900BC4754 /* libBTHAdressWorkMapAllow.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17EBB3331CE3441900BC4754 /* BTHAdressWorkMapAllow */ = {
+			isa = PBXGroup;
+			children = (
+				17EBB33D1CE3453A00BC4754 /* BTHMapAllowTool.h */,
+				17EBB33E1CE3453A00BC4754 /* BTHMapAllowTool.m */,
+				17EBB3341CE3441900BC4754 /* BTHAdressWorkMapAllow.h */,
+				17EBB3361CE3441900BC4754 /* BTHAdressWorkMapAllow.m */,
+			);
+			path = BTHAdressWorkMapAllow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EBB3301CE3441900BC4754 /* BTHAdressWorkMapAllow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EBB33A1CE3441900BC4754 /* Build configuration list for PBXNativeTarget "BTHAdressWorkMapAllow" */;
+			buildPhases = (
+				17EBB32D1CE3441900BC4754 /* Sources */,
+				17EBB32E1CE3441900BC4754 /* Frameworks */,
+				17EBB32F1CE3441900BC4754 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTHAdressWorkMapAllow;
+			productName = BTHAdressWorkMapAllow;
+			productReference = 17EBB3311CE3441900BC4754 /* libBTHAdressWorkMapAllow.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EBB3291CE3441900BC4754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "MFHJ-DZ-001-417";
+				TargetAttributes = {
+					17EBB3301CE3441900BC4754 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = XQL3EZLY8J;
+					};
+				};
+			};
+			buildConfigurationList = 17EBB32C1CE3441900BC4754 /* Build configuration list for PBXProject "BTHAdressWorkMapAllow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17EBB3281CE3441900BC4754;
+			productRefGroup = 17EBB3321CE3441900BC4754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EBB3301CE3441900BC4754 /* BTHAdressWorkMapAllow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EBB32D1CE3441900BC4754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EBB3371CE3441900BC4754 /* BTHAdressWorkMapAllow.m in Sources */,
+				17EBB33F1CE3453A00BC4754 /* BTHMapAllowTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17EBB3381CE3441900BC4754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17EBB3391CE3441900BC4754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17EBB33B1CE3441900BC4754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		17EBB33C1CE3441900BC4754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EBB32C1CE3441900BC4754 /* Build configuration list for PBXProject "BTHAdressWorkMapAllow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EBB3381CE3441900BC4754 /* Debug */,
+				17EBB3391CE3441900BC4754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EBB33A1CE3441900BC4754 /* Build configuration list for PBXNativeTarget "BTHAdressWorkMapAllow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EBB33B1CE3441900BC4754 /* Debug */,
+				17EBB33C1CE3441900BC4754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17EBB3291CE3441900BC4754 /* Project object */;
+}
