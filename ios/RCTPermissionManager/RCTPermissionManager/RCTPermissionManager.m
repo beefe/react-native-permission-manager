@@ -27,6 +27,7 @@ RCT_EXPORT_METHOD(getAdressBookAllow:(RCTResponseSenderBlock)getBack){
             NSLog(@"授权成功");
             
             getBack(@[[NSNull null], @"通讯录授权成功"]);
+            
         }else
         {
             NSLog(@"授权失败");
@@ -83,7 +84,7 @@ RCT_EXPORT_METHOD(getAdressBookInfo:(RCTResponseSenderBlock)getBack){
         
     }
     
-    getBack(@[[NSNull null], dataSource);
+    getBack(@[[NSNull null], dataSource]);
 }
 //这里是获取地图的允许验证
               
@@ -92,6 +93,7 @@ RCT_EXPORT_METHOD(getMapAllow:(RCTResponseSenderBlock)getBack){
         RCTPermissionMapManger *tool=[[RCTPermissionMapManger alloc]init];
         
         tool.bolock=^(NSString *info){
+            
             getBack(@[[NSNull null], info]);
         };
     }
