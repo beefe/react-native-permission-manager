@@ -20,7 +20,7 @@ import com.google.android.gms.location.LocationServices;
  */
 public class PermissionMgrModule extends ReactContextBaseJavaModule implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
-    private static final String REACT_CLASS = "PermissionManager";
+    private static final String REACT_CLASS = "RCTPermissionManager";
 
     /**
      * Provides the entry point to Google Play services.
